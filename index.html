@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleOnlineHW.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>It-incubator precourse</title>
 </head>
 <body>
@@ -10,25 +14,25 @@
     <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
-    <header>
+    <header class="header">
         <span>IT-INCUBATOR</span>
     </header>
 
-    <section data-cy="hw1-section-main-pre">
+    <section class="section-one" data-cy="hw1-section-main-pre">
         <!-- 1) В этом разделе создай 3 дочерних элемента: -->
 
         <!-- a) Заголовок первого уровня со своим ФИО -->
-        <h1>Ахаев Джамбулат Вахаевич</h1>
+        <h1 class="main-title">Ахаев Джамбулат Вахаевич</h1>
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
-        <p>Учебу закончил 15 лет назад. Сейчас работаю в ПАО "Чеченэнерго". Увлекаюсь программированием с недавних пор. Надеюсь, что у меня в этом направлении все получится.</p>
+        <p class="text">Учебу закончил 15 лет назад. Сейчас работаю в ПАО "Чеченэнерго". Увлекаюсь программированием с недавних пор. Надеюсь, что у меня в этом направлении все получится.</p>
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
-        <img src="https://th.bing.com/th/id/OIP.kOZ_NRF4sUGXv_NCK6X1fwAAAA?rs=1&pid=ImgDetMain" alt="Пальма"/>
+        <img class="image" src="https://th.bing.com/th/id/OIP.kOZ_NRF4sUGXv_NCK6X1fwAAAA?rs=1&pid=ImgDetMain" alt="Пальма"/>
     </section>
 
 
-    <section data-cy="hw1-section-about-pre">
+    <section class="section-two" data-cy="hw1-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
-        <select name="city" id="city">
+        <select class="list" name="city" id="city">
             <option value="Минск">Минск</option>
             <option value="Грозный" selected>Грозный</option>
             <option value="Рим">Рим</option>
@@ -40,7 +44,7 @@
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <h2>Страны</h2>                        
             <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
-            <ul>
+            <ul class="ulist">
                 <li>Италия</li>
                 <li>Франция</li>
                 <li>Германия</li>
@@ -66,26 +70,26 @@
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
             
             <label>
-                <input type="checkbox" checked>
-                tml5
+                <input class="check" type="checkbox" checked>
+                html5
             </label>
             <label>
-                <input type="checkbox" checked>
+                <input class="check" type="checkbox" checked>
                 CSS
             </label>
             <label>
-                <input type="checkbox">
+                <input class="check" type="checkbox">
                 JS
             </label>
             <label>
-                <input type="checkbox">
+                <input class="check" type="checkbox">
                 React
             </label>
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
-        <input type="text" placeholder="Новый скилл">
+        <input class="inputinfo" type="text" placeholder="Новый скилл">
         <!-- 6) Создай здесь кнопку “Добавить” -->
-        <button>Добавить</button>
+        <button class="button">Добавить</button>
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
         <hr>
         <table data-cy="hw-about-table-pre" border="">
@@ -119,9 +123,9 @@
             </tr>
         </table>
     </section>
-    <footer data-cy="hw-footer-pre">
+    <footer class="footer" data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        <a href="https://it-incubator.io/">it-incubator</a>
+        <a class="link" href="https://it-incubator.io/" target="_blank">it-incubator</a>
     </footer>
 </body>
 </html>
