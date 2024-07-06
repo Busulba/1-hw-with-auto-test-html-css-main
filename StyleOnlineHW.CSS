@@ -149,11 +149,13 @@ td {
     padding: 26px 0;
     font-weight: 400;
     font-size: 14px;
-}
-
-.link {
     color: #2965f1;
     text-decoration: none;
 }
+/* 
+.link {
+    color: #2965f1;
+    text-decoration: none;
+} */
 
 a:visited {color: purple}
