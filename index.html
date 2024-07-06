@@ -14,7 +14,7 @@
     <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
-    <header class="header">
+    <header class="header" data-cy="hw2-header-span">
         <span class="span">IT-INCUBATOR</span>
     </header>
 
@@ -125,7 +125,7 @@
     </section>
     <footer class="footer" data-cy="hw-footer-pre">
         <!-- 9) Создай здесь ссылку на наш сайт https://it-incubator.io/ (текст ссылки должен быть it-incubator) -->
-        <a class="link" href="https://it-incubator.io/" target="_blank">it-incubator</a>
+        <a class="link" data-cy="hw-footer-link-pre" href="https://it-incubator.io/" target="_blank">it-incubator</a>
     </footer>
 </body>
 </html>
