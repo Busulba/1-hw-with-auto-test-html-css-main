@@ -126,7 +126,8 @@ hr {
     width: 300px;
     height: 196px;
     border: 1px solid #95a1bb;
-    
+    font-weight: 400;
+    font-size: 14px;
 }
 
 tr {
@@ -154,7 +155,7 @@ footer.footer {
     text-decoration: none;
 }
 
-.link {
+a.link {
     color: #2965f1;
     text-decoration: none;
 }
