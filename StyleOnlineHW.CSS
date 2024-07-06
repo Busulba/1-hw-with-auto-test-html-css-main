@@ -10,17 +10,17 @@ body {
     color: rgb(48, 48, 48);
 }
 
-.header {
+header.header {
     background: #2965f1;
     width: 100%;
     padding: 23px 0;
+    color: rgb(255, 255, 255);
 }
 
 .span {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: #fff;
 }
 
 .section-one {
