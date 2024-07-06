@@ -7,6 +7,7 @@
 html,
 body {
     font-family: 'Inter', sans-serif;
+    color: rgb(48, 48, 48);
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     padding: 23px 0;
 }
 
-span {
+.span {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -32,14 +33,14 @@ span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
+    /* color: #303030; */
     margin-bottom: 20px;
 }
 
 .text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
+    /* color: #303030; */
 }
 
 .image {
@@ -58,8 +59,7 @@ span {
     height: 36px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
-    /* margin-top: 100px; */
+    /* color: #303030; */
     appearance: none;
     background-image: url(./images/Vector.png);
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@ span {
 h2 {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
+    /* color: #303030; */
     margin-bottom: 25px;
 }
 
@@ -81,7 +81,7 @@ h2 {
 li {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    /* color: #303030; */
 }
 
 ol {
@@ -91,7 +91,7 @@ ol {
 .check {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
+    /* color: #303030; */
 }
 
 .inputinfo {
